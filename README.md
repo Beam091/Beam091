@@ -1,6 +1,1 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Prayut HUB", "DarkTheme")
-local Tab = Window:NewTab("main")
-local Section = Tab:NewSection("WhiteScreen")
-Section:NewToggle("WhiteScreen", "Click to use WhiteScreen", function(state)
 game:GetService("RunService"):Set3dRenderingEnabled(false)
